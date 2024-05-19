@@ -1,24 +1,23 @@
 {
-  "name": "Gravity Alpha Mainnet",
-  "chain": "GRAVITY",
-  "rpc": ["https://rpc.gravity.xyz/"],
-  "faucets": [],
+  "name": "Conflux eSpace (Testnet)",
+  "chain": "Conflux",
+  "rpc": ["https://evmtestnet.confluxrpc.com"],
+  "faucets": ["https://faucet.confluxnetwork.org"],
   "nativeCurrency": {
-    "name": "G.",
-    "symbol": "G.",
+    "name": "CFX",
+    "symbol": "CFX",
     "decimals": 18
   },
-  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }, { "name": "EIP1108" }],
-  "infoURL": "",
-  "shortName": "GRAVITY",
+  "infoURL": "https://confluxnetwork.org",
+  "shortName": "cfxtest",
   "chainId": 71,
   "networkId": 71,
-  "icon": "gravity",
+  "icon": "conflux",
   "explorers": [
     {
-      "name": "Gravity Alpha Mainnet Explorer",
-      "url": "https://explorer.gravity.xyz/",
-      "standard": "EIP3091"
+      "name": "Conflux Scan",
+      "url": "https://evmtestnet.confluxscan.net",
+      "standard": "none"
     }
   ]
 }
