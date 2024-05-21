@@ -19,10 +19,5 @@
       "url": "https://evmtestnet.confluxscan.net",
       "standard": "none"
     }
-  ],
-  "parent": {
-    "type": "L2",
-    "chain": "eip155-1",
-    "bridges": [{"url":"https://bridge.gravity.xyz"}]
-  }
+  ]
 }
